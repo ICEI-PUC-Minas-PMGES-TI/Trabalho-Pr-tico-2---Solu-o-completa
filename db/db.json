@@ -1,0 +1,347 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Testessss",
+      "descricao": "Três dias de muita música nacional e internacional.",
+      "categoria": "Cultura",
+      "data": "2025-03-15",
+      "autor": "Ana Clara Silva",
+      "imagem_pincipal": "assets/img/festival_musica.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/festival_musica1.jpg",
+          "descricao": "Multidão no show"
+        },
+        {
+          "id": 2,
+          "src": "img/festival_musica2.jpg",
+          "descricao": "Banda principal se apresentando"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Feira de Ciências Estimula Jovens Pesquisadores",
+      "descricao": "Alunos apresentam projetos inovadores à comunidade.",
+      "conteudo": "Com foco em sustentabilidade e tecnologia, a feira reuniu mais de 200 projetos estudantis.",
+      "categoria": "Educação",
+      "autor": "Bruno Almeida",
+      "destaque": false,
+      "data": "2025-03-18",
+      "imagem_pincipal": "assets/img/feira_ciencias.jpg",
+      "imagens_complementares": [
+        {
+          "id": 3,
+          "src": "img/feira_ciencias1.jpg",
+          "descricao": "Projeto de energia solar"
+        },
+        {
+          "id": 4,
+          "src": "img/feira_ciencias2.jpg",
+          "descricao": "Apresentação para os jurados"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Corrida Solidária Reúne Atletas Amadores",
+      "descricao": "Evento esportivo arrecada fundos para instituições de caridade.",
+      "conteudo": "A corrida atraiu 5 mil participantes e promoveu a integração da comunidade em prol da solidariedade.",
+      "categoria": "Esportes",
+      "autor": "Carolina Souza",
+      "destaque": false,
+      "data": "2025-03-20",
+      "imagem_pincipal": "assets/img/corrida_solidaria.jpg",
+      "imagens_complementares": [
+        {
+          "id": 5,
+          "src": "img/corrida_solidaria1.jpg",
+          "descricao": "Atletas na linha de largada"
+        },
+        {
+          "id": 6,
+          "src": "img/corrida_solidaria2.jpg",
+          "descricao": "Entrega de medalhas"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Exposição Fotográfica Retrata a Vida no Campo",
+      "descricao": "Mostra valoriza a cultura rural com olhares artísticos.",
+      "conteudo": "Fotógrafos renomados captaram a essência das comunidades do interior em belíssimas imagens.",
+      "categoria": "Arte",
+      "autor": "Diego Martins",
+      "destaque": false,
+      "data": "2025-03-22",
+      "imagem_pincipal": "assets/img/exposicao_fotografia.jpg",
+      "imagens_complementares": [
+        {
+          "id": 7,
+          "src": "img/exposicao_fotografia1.jpg",
+          "descricao": "Cenas da vida rural"
+        },
+        {
+          "id": 8,
+          "src": "img/exposicao_fotografia2.jpg",
+          "descricao": "Crianças brincando no campo"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Projeto de Reflorestamento Planta Milhares de Árvores",
+      "descricao": "Iniciativa ambiental mobiliza voluntários.",
+      "conteudo": "A ação plantou 10 mil mudas em áreas degradadas, promovendo a recuperação da biodiversidade.",
+      "categoria": "Meio Ambiente",
+      "autor": "Juliana Ribeiro",
+      "destaque": false,
+      "data": "2025-03-25",
+      "imagem_pincipal": "assets/img/projeto_reflorestamento.jpg",
+      "imagens_complementares": [
+        {
+          "id": 9,
+          "src": "img/reflorestamento1.jpg",
+          "descricao": "Voluntários plantando mudas"
+        },
+        {
+          "id": 10,
+          "src": "img/reflorestamento2.jpg",
+          "descricao": "Nova área verde formada"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Festival Gastronômico Valoriza Sabores Regionais",
+      "descricao": "Evento culinário reúne chefs renomados.",
+      "conteudo": "Oficinas e degustações destacaram pratos típicos da culinária local, atraindo milhares de visitantes.",
+      "categoria": "Gastronomia",
+      "autor": "Marcos Silva",
+      "destaque": true,
+      "data": "2025-03-28",
+      "imagem_pincipal": "assets/img/festival_gastronomia.jpg",
+      "imagens_complementares": [
+        {
+          "id": 11,
+          "src": "img/festival_gastronomia1.jpg",
+          "descricao": "Pratos regionais expostos"
+        },
+        {
+          "id": 12,
+          "src": "img/festival_gastronomia2.jpg",
+          "descricao": "Chef preparando receita"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Congresso de Tecnologia Apresenta Tendências Futuras",
+      "descricao": "Especialistas debatem inovações e inteligência artificial.",
+      "conteudo": "O evento reuniu líderes de tecnologia para discutir o futuro da conectividade e da automação.",
+      "categoria": "Tecnologia",
+      "autor": "Patrícia Lima",
+      "destaque": false,
+      "data": "2025-03-30",
+      "imagem_pincipal": "assets/img/congresso_tecnologia.jpg",
+      "imagens_complementares": [
+        {
+          "id": 13,
+          "src": "img/congresso_tecnologia1.jpg",
+          "descricao": "Palestra sobre IA"
+        },
+        {
+          "id": 14,
+          "src": "img/congresso_tecnologia2.jpg",
+          "descricao": "Workshop de inovação"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Semana do Meio Ambiente Promove Ações Sustentáveis",
+      "descricao": "Palestras e atividades conscientizam população.",
+      "conteudo": "A campanha educativa envolveu escolas e empresas locais, reforçando a importância da preservação ambiental.",
+      "categoria": "Meio Ambiente",
+      "autor": "Rafael Borges",
+      "destaque": false,
+      "data": "2025-04-01",
+      "imagem_pincipal": "assets/img/semana_meio_ambiente.jpg",
+      "imagens_complementares": [
+        {
+          "id": 15,
+          "src": "img/semana_meio_ambiente1.jpg",
+          "descricao": "Oficina de reciclagem"
+        },
+        {
+          "id": 16,
+          "src": "img/semana_meio_ambiente2.jpg",
+          "descricao": "Plantio de árvores em escola"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Feira de Empreendedorismo Incentiva Novos Negócios",
+      "descricao": "Evento conecta startups a investidores.",
+      "conteudo": "A feira reuniu 300 startups e promoveu rodadas de negócios para estimular a inovação.",
+      "categoria": "Economia",
+      "autor": "Letícia Fontes",
+      "destaque": false,
+      "data": "2025-04-03",
+      "imagem_pincipal": "assets/img/feira_empreendedorismo.jpg",
+      "imagens_complementares": [
+        {
+          "id": 17,
+          "src": "img/feira_empreendedorismo1.jpg",
+          "descricao": "Palestra sobre inovação"
+        },
+        {
+          "id": 18,
+          "src": "img/feira_empreendedorismo2.jpg",
+          "descricao": "Apresentação de pitch"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "Festival de Cinema Premia Novos Talentos",
+      "descricao": "Mostra exibe produções independentes nacionais.",
+      "conteudo": "Curtas e longas-metragens de cineastas emergentes foram destaque no festival.",
+      "categoria": "Cultura",
+      "autor": "Amanda Nunes",
+      "destaque": false,
+      "data": "2025-04-05",
+      "imagem_pincipal": "assets/img/festival_cinema.jpg",
+      "imagens_complementares": [
+        {
+          "id": 19,
+          "src": "img/festival_cinema1.jpg",
+          "descricao": "Sessão de estreia"
+        },
+        {
+          "id": 20,
+          "src": "img/festival_cinema2.jpg",
+          "descricao": "Premiação dos diretores"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "Maratona Literária Incentiva Leitura nas Escolas",
+      "descricao": "Projeto atinge mais de 50 instituições de ensino.",
+      "conteudo": "A maratona promoveu atividades como rodas de leitura, dramatizações e concursos de escrita criativa.",
+      "categoria": "Educação",
+      "autor": "Fernando Lopes",
+      "destaque": false,
+      "data": "2025-04-07",
+      "imagem_pincipal": "assets/img/maratona_literaria.jpg",
+      "imagens_complementares": [
+        {
+          "id": 21,
+          "src": "img/maratona_literaria1.jpg",
+          "descricao": "Crianças lendo em grupo"
+        },
+        {
+          "id": 22,
+          "src": "img/maratona_literaria2.jpg",
+          "descricao": "Apresentação teatral"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "titulo": "Campeonato de Skate Agita a Praça Central",
+      "descricao": "Atletas de várias regiões competem em manobras radicais.",
+      "conteudo": "O evento reuniu talentos do skate e promoveu oficinas gratuitas para crianças e adolescentes.",
+      "categoria": "Esportes",
+      "autor": "Isabela Fernandes",
+      "destaque": false,
+      "data": "2025-04-09",
+      "imagem_pincipal": "assets/img/campeonato_skate.jpg",
+      "imagens_complementares": [
+        {
+          "id": 23,
+          "src": "img/campeonato_skate1.jpg",
+          "descricao": "Manobra na pista"
+        },
+        {
+          "id": 24,
+          "src": "img/campeonato_skate2.jpg",
+          "descricao": "Público acompanhando o evento"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "Startup Local é Destaque em Evento Internacional",
+      "descricao": "Empresa apresenta solução inovadora de mobilidade urbana.",
+      "conteudo": "A startup conquistou investidores ao apresentar um projeto de transporte sustentável e acessível.",
+      "categoria": "Tecnologia",
+      "autor": "Ricardo Soares",
+      "destaque": false,
+      "data": "2025-04-11",
+      "imagem_pincipal": "assets/img/startup_mobilidade.jpg",
+      "imagens_complementares": [
+        {
+          "id": 25,
+          "src": "img/startup_mobilidade1.jpg",
+          "descricao": "Apresentação do projeto"
+        },
+        {
+          "id": 26,
+          "src": "img/startup_mobilidade2.jpg",
+          "descricao": "Equipe celebrando prêmio"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "Orquestra Jovem Faz Concerto ao Ar Livre",
+      "descricao": "Música clássica encanta público na praça central.",
+      "conteudo": "O repertório incluiu clássicos de Beethoven, Mozart e composições brasileiras.",
+      "categoria": "Cultura",
+      "autor": "Marina Duarte",
+      "destaque": false,
+      "data": "2025-04-13",
+      "imagem_pincipal": "assets/img/orquestra_jovem.jpg",
+      "imagens_complementares": [
+        {
+          "id": 27,
+          "src": "img/orquestra_jovem1.jpg",
+          "descricao": "Apresentação ao entardecer"
+        },
+        {
+          "id": 28,
+          "src": "img/orquestra_jovem2.jpg",
+          "descricao": "Plateia assistindo ao concerto"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "Campanha de Vacinação Bate Meta em Dois Dias",
+      "descricao": "Ação intensiva imuniza milhares de pessoas rapidamente.",
+      "conteudo": "A prefeitura comemora o sucesso da campanha, que garantiu a proteção da população contra diversas doenças.",
+      "categoria": "Saúde",
+      "autor": "Eduardo Cardoso",
+      "destaque": true,
+      "data": "2025-04-15",
+      "imagem_pincipal": "assets/img/campanha_vacinacao.jpg",
+      "imagens_complementares": [
+        {
+          "id": 29,
+          "src": "img/campanha_vacinacao1.jpg",
+          "descricao": "Fila de vacinação"
+        },
+        {
+          "id": 30,
+          "src": "img/campanha_vacinacao2.jpg",
+          "descricao": "Profissional aplicando vacina"
+        }
+      ]
+    }
+  ]
+}
