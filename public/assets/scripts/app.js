@@ -1,4 +1,5 @@
 let dados;
+let usuarioLogado;
 
 function deleteCard(id) {
   fetch(`http://localhost:3000/noticias/${id}`, { method: 'DELETE' })
@@ -9,12 +10,7 @@ function deleteCard(id) {
     .catch(error => console.error('Erro ao deletar o card com id:', id));
 }
 
-function editCard(id) {
-
-}
-
 function setDestaqueCards(cards) {
-
   const cardsContainer = document.getElementById('cards-contrast');
   const indicatorsContainer = document.querySelector('.carousel-indicators');
 
@@ -95,8 +91,10 @@ function setCards(card) {
   divCard.appendChild(category);
   divCard.appendChild(autor);
   divCard.appendChild(data);
-  divCard.appendChild(buttonDelete);
-  divCard.appendChild(buttonEdit);
+  if (usuarioLogado.isAdmin) {
+    divCard.appendChild(buttonDelete);
+    divCard.appendChild(buttonEdit);
+  }
 
   divCard.addEventListener('click', function () {
     window.location.href = `./detalhes.html?id=${card.id}`;;
@@ -160,6 +158,12 @@ function setCards(card) {
 }
 
 function onInit() {
+
+usuarioLogado = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+if (!usuarioLogado.id) {
+  alert("Usuario não logado");
+  window.location.href = `./login.html`;
+}
 
   fetch('http://localhost:3000/noticias')
     .then(response => response.json())
